@@ -1,9 +1,19 @@
 table{
-    table-layout: fixed;
-    width: 80%;
+    width: auto;
+    border: 3px solid purple;
     border-collapse: collapse;
-    border: 3px;
-    border-color: hsl(204, 77%, 41%);
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #696f72;
+}
+
+thead{
+    font-weight: bold;
+    background-color: rgb(0, 179, 255);
+}
+
+td{
+    border: 2px solid #800080;
+    padding: 3px 2px;
 }
 
 .html{
@@ -11,13 +21,10 @@ table{
     color: #E80A62;
 }
 
-.table{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-thead{
-    font-weight: bold;
-    background-color: rgb(0, 179, 255);
+.css{
+    font-family: 'Space mono';
+    color: #15d8ea;
+    font-style: italic;
 }
 
 h1, h2, p{
@@ -26,6 +33,7 @@ h1, h2, p{
 
 h1{
     color: purple;
+    text-align: center;
 }
 
 body{
@@ -34,4 +42,8 @@ body{
 
 img{
     height: 600px;
+}
+
+#css{
+    height: 400px;
 }
